@@ -1,6 +1,6 @@
 library(devtools)
 
 devtools::check()
-devtools::test(filter="ds.")
+devtools::test(filter="datashield.")
 
 quit(status=0)

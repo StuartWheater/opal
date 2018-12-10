@@ -52,5 +52,5 @@ steps:
 
 - bash: |
     cat azure-pipelines.Rout
-    ./checkDocumentationUpdated.sh && grep "0 error" azure-pipelines.Rout && grep "Failed:   0" azure-pipelines.Rout
+    grep "0 error" azure-pipelines.Rout && grep "Failed:   0" azure-pipelines.Rout
   displayName: 'Results'
